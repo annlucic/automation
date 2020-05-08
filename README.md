@@ -108,16 +108,10 @@ CREATE TABLE dash_visits(record_id serial PRIMARY KEY,
 Порядок элементов управления:
 
 1. График событий во времени
-
-<img src="images/dash_plot1.png?raw=true"/>
-
 2. Круговая диаграмма событий
-
-<img src="images/dash_plot2.png?raw=true"/>
-
 3. Столбчатая диаграмма глубины взаимодействия
 
-<img src="images/dash_plot3.png?raw=true"/>
+<img src="dash_screen2.png?raw=true"/>
 
 ### 6. Используемые инструменты
 
