@@ -84,7 +84,7 @@ CREATE TABLE dash_visits(record_id serial PRIMARY KEY,
                          dt TIMESTAMP,
                          visits INT);
 ```  
-### 4. Пайплайн 
+### 3. Пайплайн 
 
 1. Заданы входные параметры пайплайна: `start_dt` и `end_dt`
 2. Задано подключение к БД 
@@ -92,7 +92,7 @@ CREATE TABLE dash_visits(record_id serial PRIMARY KEY,
 4. Добавлено удаление ранее записанных данных и запись новых данных.
 5. Вызван скрипт пайплайна для всего диапазона тестовых данных
 
-### 5. Дашборд
+### 4. Дашборд
 
 1. Заданы данные для отрисовки
 2. Получены сырые данные из базы
@@ -113,7 +113,7 @@ CREATE TABLE dash_visits(record_id serial PRIMARY KEY,
 
 <img src="dash_screen2.png?raw=true"/>
 
-### 6. Используемые инструменты
+### 5. Используемые инструменты
 
 Библиотеки python - dash, pandas, sqlalchemy, psycopg2
 
